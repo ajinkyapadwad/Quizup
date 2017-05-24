@@ -1,3 +1,6 @@
+</<?php 
+	include 'database.php';
+ ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,6 +15,7 @@
 		</div>
 	</header>
 	<main>
+	<center>
 	<div class="container">
 			<h2 align="center">Test Your PHP Knowledge</h2>
 			<p>This is a multiple choice quiz to test your knowledge of PHP</p>
@@ -23,10 +27,7 @@
 			<a href="question.php?n=1" class="start">Start Quiz</a>
 		</div>
 	</main>
-	<footer>
-		<div class="container">
-			Copyright &copy; 2017, Ajinkya Padwad
-		</div>
-	</footer>
+	</center>
+
 </body>
 </html>
